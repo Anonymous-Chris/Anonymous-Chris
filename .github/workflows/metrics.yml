@@ -28,22 +28,22 @@ jobs:
           config_display: large
 
           # Dashboard order
-          config_order: header, activity, community, repositories, metadata, habits, code, stars, lines, isocalendar, languages, topics
+          config_order: base.header, base.activity, base.community, base.repositories, languages, topics, code, stars, lines, isocalendar, metadata
           
-          # Recent activity
-          plugin_activity: yes
-          plugin_activity_limit: 10
-          plugin_activity_days: 14
-          plugin_activity_timestamps: yes
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          # # Recent activity
+          # plugin_activity: yes
+          # plugin_activity_limit: 10
+          # plugin_activity_days: 14
+          # plugin_activity_timestamps: yes
+          # plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
-          # Coding habits
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
+          # # Coding habits
+          # plugin_habits: yes
+          # plugin_habits_from: 200
+          # plugin_habits_days: 14
+          # plugin_habits_facts: yes
+          # plugin_habits_charts: yes
+          # plugin_habits_charts_type: classic
 
           # Random code snippet
           plugin_code: yes
