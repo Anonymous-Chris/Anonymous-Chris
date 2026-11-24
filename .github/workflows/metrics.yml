@@ -21,7 +21,7 @@ jobs:
 
           user: Anonymous-Chris
           template: classic
-          base: header, activity, community, repositories, metadata
+          config_order: base.header, habits, isocalendar, languages, topics, repositories, lines          
           config_timezone: America/Chicago
           config_display: large
           # Calendar
