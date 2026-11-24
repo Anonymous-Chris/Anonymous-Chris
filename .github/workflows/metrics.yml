@@ -26,8 +26,8 @@ jobs:
           config_display: large
 
           # Dashboard section order
-          config_order: base.header, habits, traffic, lines, isocalendar, languages, topics
-
+          config_order: base.header, habits, people, traffic, lines, isocalendar, languages, topics
+          
           # Coding habits
           plugin_habits: yes
           plugin_habits_from: 200
@@ -36,6 +36,12 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_charts_type: graph
 
+          # People
+          plugin_people: yes
+          plugin_people_limit: 12
+          plugin_people_size: 28
+          plugin_people_types: followers, following
+          
           # Repository traffic
           plugin_traffic: yes
 
