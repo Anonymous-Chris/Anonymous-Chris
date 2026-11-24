@@ -23,7 +23,7 @@ jobs:
           template: classic
 
           config_timezone: America/Chicago
-          config_display: columns
+          config_display: large
 
           # Dashboard section order
           config_order: base.header, habits, isocalendar, languages, topics, repositories, lines
