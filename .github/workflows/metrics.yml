@@ -18,8 +18,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-
+          
           user: Anonymous-Chris
           template: classic
 
@@ -27,7 +26,7 @@ jobs:
           config_display: columns
 
           # Dashboard section order
-          config_order: base.header, habits, isocalendar, languages, topics, repositories, lines, pagespeed
+          config_order: base.header, habits, isocalendar, languages, topics, repositories, lines
 
           # Coding habits
           plugin_habits: yes
