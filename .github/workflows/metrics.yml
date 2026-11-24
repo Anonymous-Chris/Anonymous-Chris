@@ -26,7 +26,7 @@ jobs:
           config_display: large
 
           # Dashboard section order
-          config_order: base.header, habits, lines, isocalendar, languages
+          cconfig_order: base.header, activity, habits, code, stars, traffic, lines, isocalendar, languages, topics
           
           # Coding habits
           plugin_habits: yes
@@ -50,6 +50,18 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_colors: github
+
+          # Recent GitHub activity
+          plugin_activity: yes
+          plugin_activity_limit: 10
+          plugin_activity_days: 14
+          plugin_activity_timestamps: yes
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+          # Random code snippet
+          plugin_code: yes
+          plugin_code_languages: python, javascript, typescript
+          plugin_code_load: 100
 
 
 
