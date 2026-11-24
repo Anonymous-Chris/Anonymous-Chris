@@ -28,7 +28,7 @@ jobs:
           config_display: large
 
           # Dashboard order
-          config_order: base.header, base.activity, base.community, base.repositories, languages, topics, code, stars, lines, isocalendar, metadata
+          config_order: base.header, base.activity+community, base.repositories, languages, topics, code, stars, lines, isocalendar, metadata
           
           # # Recent activity
           # plugin_activity: yes
