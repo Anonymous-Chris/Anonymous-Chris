@@ -7,6 +7,8 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "github-metrics.svg"
 
 jobs:
   github-metrics:
@@ -26,8 +28,7 @@ jobs:
           config_display: large
 
           # Dashboard order
-          config_order: base.header, activity, habits, code, stars, traffic, lines, isocalendar, languages, topics
-
+          config_order: base, habits, code, stars, traffic, lines, isocalendar, languages, topics
           # Recent activity
           plugin_activity: yes
           plugin_activity_limit: 10
