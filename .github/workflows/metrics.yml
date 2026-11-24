@@ -26,7 +26,7 @@ jobs:
           config_display: large
 
           # Dashboard section order
-          config_order: base.header, habits, isocalendar, languages, topics, repositories, lines
+          config_order: base.header, habits, traffic, lines, isocalendar, languages, topics
 
           # Coding habits
           plugin_habits: yes
@@ -36,6 +36,12 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_charts_type: graph
 
+          # Repository traffic
+          plugin_traffic: yes
+
+          # Lines of code
+          plugin_lines: yes
+          
           # Contribution calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -51,10 +57,8 @@ jobs:
           # Topics
           plugin_topics: yes
 
-          # Repositories
-          plugin_repositories: yes
 
-          # Lines of code
-          plugin_lines: yes
+
+
 
 
