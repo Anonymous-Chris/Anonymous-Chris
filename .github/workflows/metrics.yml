@@ -34,3 +34,19 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_colors: github
+
+          # Coding habits and activity
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+
+          # Technologies and topics
+          plugin_topics: yes
+
+          # Website performance
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://anonymous-chris.github.io/windowsportfolio/
+          plugin_pagespeed_detailed: yes
