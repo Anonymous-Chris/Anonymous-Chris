@@ -28,7 +28,7 @@ jobs:
           config_display: large
 
           # Dashboard order
-          config_order: header, activity, community, repositories, metadata, habits, code, stars, traffic, lines, isocalendar, languages, topics
+          config_order: header, activity, community, repositories, metadata, habits, code, stars, lines, isocalendar, languages, topics
           
           # Recent activity
           plugin_activity: yes
@@ -53,9 +53,6 @@ jobs:
           # Recently starred repositories
           plugin_stars: yes
           plugin_stars_limit: 8
-
-          # Repository traffic
-          plugin_traffic: yes
 
           # Lines of code
           plugin_lines: yes
